@@ -45,10 +45,11 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_sitelib}/XML/SimpleObject/*.pl
 /usr/local/share/man/man3/*.3pm
 
-%changelog
-* Tue May 22 2007 Marius Feraru <altblue@n0i.net> - 0.60-2.n0i.2
-- spec file (re)created using N0i::CPAN::RPMizer v1.14.7
 
-* Tue Apr 18 2006 Marius Feraru <altblue@n0i.net> 0.60-1.n0i.1
-- spec file (re)created using N0i::CPAN::RPMizer v1.12.1
-- rebuild on perl 5.8.8
+
+%changelog
+* Tue Aug 02 2011 Leonardo Coelho <leonardoc@mandriva.com> 0.60-1mdv2012.0
++ Revision: 692919
+- bump new version spec file import from fedora
+- Created package structure for perl-XML-SimpleObject-LibXML.
+
