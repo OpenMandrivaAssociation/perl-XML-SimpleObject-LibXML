@@ -3,7 +3,7 @@
 
 Summary:       Simple object representation of an XML::LibXML DOM object
 Name:          perl-%{pkg_name}
-Version:       %perl_convert_version 0.60
+Version:       %perl_convert_version %{pkg_version}
 Release:       2
 Group:         Development/Perl
 License:       Artistic
@@ -24,6 +24,7 @@ clean a manner as possible.
 
 %build
 perl Makefile.PL
+sed -i 's%/usr/local%/usr%g' Makefile
 %make OPTMIZE="%{optflags}"
 
 %check
@@ -38,7 +39,7 @@ perl Makefile.PL
 %doc Changes README
 %{perl_sitelib}/XML/SimpleObject/*.pm
 %{perl_sitelib}/XML/SimpleObject/*.pl
-/usr/local/share/man/man3/*.3pm
+%{_mandir}/man3/*.3pm*
 
 
 
