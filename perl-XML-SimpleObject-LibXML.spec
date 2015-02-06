@@ -4,7 +4,7 @@
 Summary:       Simple object representation of an XML::LibXML DOM object
 Name:          perl-%{pkg_name}
 Version:       %perl_convert_version %{pkg_version}
-Release:       3
+Release:       4
 Group:         Development/Perl
 License:       Artistic
 URL:           http://search.cpan.org/dist/%{pkg_name}/
