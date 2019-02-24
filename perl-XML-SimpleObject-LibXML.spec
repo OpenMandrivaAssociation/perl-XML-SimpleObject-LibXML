@@ -4,7 +4,7 @@
 Summary:       Simple object representation of an XML::LibXML DOM object
 Name:          perl-%{pkg_name}
 Version:       %perl_convert_version %{pkg_version}
-Release:       4
+Release:       5
 Group:         Development/Perl
 License:       Artistic
 URL:           http://search.cpan.org/dist/%{pkg_name}/
@@ -25,13 +25,10 @@ clean a manner as possible.
 %build
 perl Makefile.PL
 sed -i 's%/usr/local%/usr%g' Makefile
-%make OPTMIZE="%{optflags}"
-
-%check
-%make test
+%make_build OPTMIZE="%{optflags}"
 
 %install
-%makeinstall_std
+%make_install
 
 %clean
 
