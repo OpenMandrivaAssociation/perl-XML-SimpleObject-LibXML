@@ -34,8 +34,8 @@ sed -i 's%/usr/local%/usr%g' Makefile
 
 %files
 %doc Changes README
-#{perl_sitelib}/XML/SimpleObject/*.pm
-#{perl_sitelib}/XML/SimpleObject/*.pl
+%{_datadir}/perl*/XML/SimpleObject/LibXML.pm
+%{_datadir}/perl*/XML/SimpleObject/ex.pl
 %{_mandir}/man3/*.3pm*
 
 
