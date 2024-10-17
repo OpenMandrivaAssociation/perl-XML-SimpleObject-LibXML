@@ -7,7 +7,7 @@ Version:       %perl_convert_version %{pkg_version}
 Release:       5
 Group:         Development/Perl
 License:       Artistic
-URL:           http://search.cpan.org/dist/%{pkg_name}/
+URL:           https://search.cpan.org/dist/%{pkg_name}/
 Source0:       http://www.cpan.org/authors/id/D/DB/DBRIAN/%{pkg_name}-%{pkg_version}.tar.gz
 BuildArch:     noarch
 BuildRequires: perl(ExtUtils::MakeMaker)
