@@ -10,6 +10,7 @@ License:       Artistic
 URL:           https://search.cpan.org/dist/%{pkg_name}/
 Source0:       http://www.cpan.org/authors/id/D/DB/DBRIAN/%{pkg_name}-%{pkg_version}.tar.gz
 BuildArch:     noarch
+BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
 BuildRequires: perl(XML::LibXML)
 BuildRequires: perl-devel
