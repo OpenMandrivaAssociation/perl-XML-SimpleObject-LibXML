@@ -3,12 +3,12 @@
 
 Summary:       Simple object representation of an XML::LibXML DOM object
 Name:          perl-%{pkg_name}
-Version:       %perl_convert_version %{pkg_version}
-Release:       5
+Version:       0.60
+Release:       6
 Group:         Development/Perl
 License:       Artistic
-URL:           https://search.cpan.org/dist/%{pkg_name}/
-Source0:       http://www.cpan.org/authors/id/D/DB/DBRIAN/%{pkg_name}-%{pkg_version}.tar.gz
+URL:           https://metacpan.org/dist/XML-SimpleObject-LibXML
+Source0:       https://cpan.metacpan.org/authors/id/D/DB/DBRIAN/XML-SimpleObject-LibXML-0.60.tar.gz
 BuildArch:     noarch
 BuildRequires:	make
 BuildRequires: perl(ExtUtils::MakeMaker)
