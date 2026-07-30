@@ -5,7 +5,7 @@
 Summary:       Simple object representation of an XML::LibXML DOM object
 Name:          perl-%{pkg_name}
 Version:	0.60
-Release:	2
+Release:	3
 Group:         Development/Perl
 License:       Artistic
 URL:           https://metacpan.org/dist/XML-SimpleObject-LibXML
