@@ -5,7 +5,7 @@
 Summary:       Simple object representation of an XML::LibXML DOM object
 Name:          perl-%{pkg_name}
 Version:	0.60
-Release:	3
+Release:	1
 Group:         Development/Perl
 License:       Artistic
 URL:           https://metacpan.org/dist/XML-SimpleObject-LibXML
@@ -33,8 +33,11 @@ sed -i 's%/usr/local%/usr%g' Makefile
 %make_install
 
 
+%check
+make test || :
+
 %files
-%doc Changes README
+%doc Changes META.yml README
 %{_datadir}/perl*/XML/SimpleObject/LibXML.pm
 %{_datadir}/perl*/XML/SimpleObject/ex.pl
 %{_mandir}/man3/*.3pm*
